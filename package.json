@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/srad25/ReadmeGenerator/issues"
   },
-  "homepage": "https://github.com/srad25/ReadmeGenerator#readme"
+  "homepage": "https://github.com/srad25/ReadmeGenerator#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "inquirer": "^8.0.0"
+  }
 }
