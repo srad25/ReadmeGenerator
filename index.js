@@ -13,21 +13,6 @@ const questions = [
 },
 {
     type: "input",
-    message:"What is your Github username?",
-    name:"username"
-},
-{
-    type: "input",
-    message:"What is the name of your Github repo?",
-    name:"repo"
-},
-{
-    type: "input",
-    message:"Please include any badge links you want",
-    name:"badge"
-},
-{
-    type: "input",
     message:"Write a description of your project",
     name:"description"
 },
@@ -49,8 +34,13 @@ const questions = [
 },
 {
     type: "input",
+    message:"Please include any badge links you want",
+    name:"badge"
+},
+{
+    type: "input",
     message:"How, if applicable can others contribute of your project?",
-    name:"contributing"
+    name:"contributors"
 },
 {
     type: "input",
@@ -71,6 +61,16 @@ const questions = [
     type: "input",
     message:"Please write link to Github page",
     name:"profile"
+},
+{
+    type: "input",
+    message:"What is your Github username?",
+    name:"username"
+},
+{
+    type: "input",
+    message:"What is the name of your Github repo?",
+    name:"repo"
 },
 
 ];
