@@ -13,16 +13,19 @@ This is a command line application that after giving a series of prompts will ge
 
 Application being ran in command line. User is prompted to answer a series of questions. At the end of series a new Readme will be generated.
 
-![alt text](./assets/images/genReadme1.png "pic of CL.")
+![Screenhot](./assets/images/genReadme1.png "pic of CL.")
 
 
 A preview of the generated Readme.
 
-![alt text](./assets/images/genReadme2.png "pic of preview Readme.")
+![Screenhot](./assets/images/genReadme2.png "pic of preview Readme.")
 
 #### Link to Demo
+
+[Video](https://drive.google.com/file/d/1vM6GA6BfPlOkuTY_3XzmMmK0teUJW7v6/view?usp=sharing)
 
 
 
 ## Contact
-https://github.com/srad25
+* https://github.com/srad25
+* https://github.com/srad25/ReadmeGenerator
