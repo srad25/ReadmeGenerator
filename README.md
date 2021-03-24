@@ -1,5 +1,5 @@
 
-# readme
+# ReadMe Generator
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 
@@ -16,15 +16,15 @@
 
 ## Description 
 
-prompts
+A series of prompts that will generate a Readme after user input
 
 ## Installation
 
-many
+Clone the repo to local device
 
 ## Usage
 
-wisely
+run node index in terminal
 
 ## License
 
@@ -32,17 +32,17 @@ wisely
 
 ## Contributors
 
-no
+not at this time
 
 ## Test
 
-run
+run node index
 
 ## Questions
   Please visit my Github page if you have any questions
 
 * [Github Page](https://github.com/srad25)
 
-* [Github Repo](https://github.com/srad25/ReadMe-Generator)
+* [Github Repo](https://github.com/srad25/ReadmeGenerator)
 
 * <suzanne.radlein@gmail.com> 
