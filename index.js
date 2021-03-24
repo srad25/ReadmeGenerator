@@ -44,7 +44,7 @@ const questions = [
 {
     type: "list",
     message:"What is the project license?",
-    choices:["Apache License 2", "MIT", "No license", "GNU-AGPLv3", "GNU-LGPLv3"],
+    choices:["Apache License 2", "MIT", "Mozilla PL", "No License"],
     name:"license",
 },
 {
@@ -67,18 +67,36 @@ const questions = [
     message:"What is your email address",
     name:"email"
 },
+{
+    type: "input",
+    message:"Please write link to Github page",
+    name:"profile"
+},
 
 ];
 
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            throw err;
+        }
+        console.log("Success, Readme generated!")
+    });
 }
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions).then((answers) => {
+        const response = generateMarkdown(answers);
+        console.log(answers);
 
+        writeToFile("README.md", response);
+        
+    })
 }
-
 // function call to initialize program
 init();
+
+
