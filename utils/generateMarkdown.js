@@ -12,7 +12,7 @@ function generateMarkdown(response) {
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributors](#contributors)
+* [Contributing](#contributing)
 * [Test](#test)
 * [Questions](#questions) 
 
