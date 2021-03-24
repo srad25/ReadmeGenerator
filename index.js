@@ -6,6 +6,7 @@ const generateMarkdown =require("./utils/generateMarkdown");
 
 
 // array of questions for user
+// function to write readme
 function questions() {
     return inquirer.prompt([
 {
@@ -67,21 +68,19 @@ function questions() {
 },
 {
     type: "input",
-    message:"What is your email address",
-    name:"email"
-},
-{
-    type: "input",
     message:"Please write link to Github page",
     name:"profile"
 },
-
-
+{
+    type: "input",
+    message:"What is your email address",
+    name:"email"
+},
 
 ]);
 }
 
-// write README file
+
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // function to initialize program

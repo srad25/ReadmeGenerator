@@ -1,5 +1,5 @@
 
-# ReadMe Generator
+# Readme Generator
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 
@@ -10,7 +10,7 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributors](#contributors)
+* [Contributing](#contributing)
 * [Test](#test)
 * [Questions](#questions) 
 
@@ -20,19 +20,19 @@ This is a command line application that after giving a series of prompts will ge
 
 ## Installation
 
-Clone the repo to your local device
+Clone the repo to your local machine
 
 ## Usage
 
-Run node index in the terminal
+Run node index in the Terminal
 
 ## License
 
 [license](https://opensource.org/licenses/MIT)
 
-## Contributors
+## Contributing
 
-n/a
+na
 
 ## Test
 

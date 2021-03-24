@@ -32,9 +32,9 @@ ${response.usage}
 
 [license](https://opensource.org/licenses/${response.license})
 
-## Contributors
+## Contributing
 
-${response.contributors}
+${response.contributing}
 
 ## Test
 
